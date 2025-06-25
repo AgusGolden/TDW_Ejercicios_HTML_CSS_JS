@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 15</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/15.css"/>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">← Volver atrás</a>
+    <p>Semáforo configurable: Usa un objeto para definir los tiempos de cada luz y 
+      un array para el orden de los colores. Permite al usuario modificar los 
+      tiempos de cada luz y observa el cambio en la animación.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="semaforo-configurable">
+
+      <div class="semaforo">
+        <div id="rojo" class="luz rojo"></div>
+        <div id="amarillo" class="luz amarillo"></div>
+        <div id="verde" class="luz verde"></div>
+      </div>
+
+      <form id="form-config">
+        <label>Rojo (ms): <input type="number" id="tiempo-rojo" value="2000" required /></label>
+        <label>Amarillo (ms): <input type="number" id="tiempo-amarillo" value="1000" required /></label>
+        <label>Verde (ms): <input type="number" id="tiempo-verde" value="2000" required /></label>
+        <button type="submit">Aplicar cambios</button>
+      </form>
+
+    </section>
+
+
+  </main>
+
+  <script src="../js/15.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 16</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/16.css"/>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">← Volver atrás</a>
+    <p>Gestor de notas: Desarrolla una aplicación donde cada nota es un objeto 
+      con título, contenido y fecha de creación. Permite ordenar por fecha, 
+      buscar por palabra clave y eliminar notas. 
+    </p>
+  </header>
+
+  <main>
+
+    <section class="gestor-notas">
+      <form id="form-nota">
+        <input type="text" id="titulo" placeholder="Título" required />
+        <textarea id="contenido" placeholder="Contenido de la nota" required></textarea>
+        <button type="submit">Agregar nota</button>
+      </form>
+
+      <div class="acciones">
+        <input type="text" id="busqueda" placeholder="Buscar por palabra clave..." />
+        <button id="ordenar-fecha">Ordenar por fecha</button>
+      </div>
+
+      <ul id="lista-notas"></ul>
+    </section>
+
+
+  </main>
+
+  <script src="../js/16.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+.semaforo-configurable {
+  max-width: 400px;
+  margin: auto;
+  padding: 2em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.semaforo {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background: #333;
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  width: 8em;
+  margin-left: 6.5em;
+}
+
+.luz {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: auto;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.rojo {
+  background-color: red;
+}
+.amarillo {
+  background-color: yellow;
+}
+.verde {
+  background-color: green;
+}
+
+.activa {
+  opacity: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+form input {
+  padding: 0.4em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  margin-top: 1em;
+  background-color: #004466;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}

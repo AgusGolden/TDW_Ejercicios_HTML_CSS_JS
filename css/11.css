@@ -1,0 +1,62 @@
+.cuestionario {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+#pregunta-texto {
+  margin-bottom: 1em;
+  color: #004466;
+}
+
+#opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+.opcion {
+  background-color: #eeeeee;
+  border: none;
+  padding: 0.8em;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.opcion:hover {
+  background-color: #dddddd;
+}
+
+.opcion.correcta {
+  background-color: #4caf50;
+  color: white;
+}
+
+.opcion.incorrecta {
+  background-color: #f44336;
+  color: white;
+}
+
+#siguiente {
+  background-color: #004466;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1em;
+  display: none;
+}
+
+.resultado {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}

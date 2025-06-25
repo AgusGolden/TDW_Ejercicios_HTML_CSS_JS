@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 3</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/3.css"/>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">← Volver atrás</a>
+    <p>Galería de imágenes con efectos: Muestra varias imágenes en una
+      cuadrícula. Al hacer clic en una imagen, que se muestre ampliada (modal).
+      Aplica efectos de transición con CSS y controla el modal con JavaScript.
+    </p>
+  </header>
+
+  <main>
+    <section class="galeria">
+      <img src="../img/img1.jpeg" alt="Imagen 1" class="imagen-galeria">
+      <img src="../img/img2.jpg" alt="Imagen 2" class="imagen-galeria">
+      <img src="../img/img3.jpeg" alt="Imagen 3" class="imagen-galeria">
+      <img src="../img/img4.jpg" alt="Imagen 4" class="imagen-galeria">
+      <img src="../img/img5.jpg" alt="Imagen 5" class="imagen-galeria">
+    </section>
+
+    <div id="modal" class="modal">
+      <span id="cerrar" class="cerrar">X</span>
+      <img id="imagen-modal" class="imagen-modal" src="" alt="Imagen ampliada">
+    </div>
+  </main>
+
+
+  <script src="../js/3.js"></script>
+
+</body>
+</html>

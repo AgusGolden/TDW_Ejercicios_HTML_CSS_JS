@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 9</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/9.css"/>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">← Volver atrás</a>
+    <p>Gestor de contactos: Crea una aplicación donde puedas agregar, ver, editar
+      y eliminar contactos. Los contactos deben almacenarse en un array de
+      objetos, cada uno con propiedades como nombre, teléfono y correo. Usa
+      HTML para el formulario y la lista, CSS para el diseño, y JavaScript para
+      gestionar la lógica.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="gestor-contactos">
+
+    <h2>Agregar contacto</h2>
+
+    <form id="form-contacto">
+      <input type="text" id="nombre" placeholder="Nombre" required />
+      <input type="tel" id="telefono" placeholder="Teléfono" required />
+      <input type="email" id="correo" placeholder="Correo" required />
+      <button type="submit" id="boton-submit">Agregar</button>
+    </form>
+
+    <h2>Lista de contactos</h2>
+    <ul id="lista-contactos"></ul>
+
+  </section>
+
+  </main>
+
+  <script src="../js/9.js"></script>
+
+</body>
+</html>

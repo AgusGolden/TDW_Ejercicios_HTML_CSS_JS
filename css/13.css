@@ -1,0 +1,57 @@
+.galeria-etiquetas {
+  max-width: 900px;
+  margin: auto;
+}
+
+#filtros {
+  margin-bottom: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+#filtros button {
+  background-color: #004466;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#filtros button.active {
+  background-color: #0077aa;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1em;
+}
+
+.galeria-item {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.galeria-item img {
+  width: 100%;
+  display: block;
+}
+
+.galeria-item h3 {
+  padding: 0.5em;
+  font-size: 1.1em;
+  color: #004466;
+}
+
+.etiquetas {
+  padding: 0 0.5em 0.5em;
+  font-size: 0.85em;
+  color: #555;
+}

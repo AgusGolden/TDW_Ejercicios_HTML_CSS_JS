@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 2</title>
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <link rel="stylesheet" href="/css/2.css"/>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">← Volver atrás</a>
+        <p>Formulario de contacto validado: Haz un formulario que pida nombre,
+            correo y mensaje. Agrega validación de campos usando JavaScript y
+            personaliza el estilo del formulario con CSS.
+        </p>
+    </header>
+
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <p id="errores"></p>
+        </form>
+    </main>
+
+  <script src="/js/2.js"></script>
+
+</body>
+</html>

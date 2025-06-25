@@ -1,0 +1,42 @@
+.carrusel-testimonios {
+  border-radius: 10px;
+  padding: 2em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.carrusel-testimonios button {
+  color: #004466;
+  border: none;
+  font-size: 4em;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s;
+  text-align: center;
+  background-color: transparent;
+}
+
+.carrusel-testimonios button:hover {
+  color: #0077aa;
+}
+
+.testimonio {
+  flex-grow: 1;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #004466;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.testimonio.oculto {
+  opacity: 0;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 6</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/6.css"/>
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">← Volver atrás</a>
+    <p>Convertidor de monedas: Realiza una interfaz donde se pueda convertir
+      entre diferentes monedas usando tasas de cambio fijas. Aplica validaciones
+      y formato con JavaScript y CSS.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="convertidor-moneda">
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" min="0" placeholder="Ingrese monto" />
+
+      <label for="moneda-origen">Moneda origen:</label>
+      <select id="moneda-origen">
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="ARS">Peso Argentino (ARS)</option>
+      </select>
+
+      <label for="moneda-destino">Moneda destino:</label>
+      <select id="moneda-destino">
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="ARS">Peso Argentino (ARS)</option>
+      </select>
+
+      <button id="convertir">Convertir</button>
+
+      <p id="resultado"></p>
+    </section>
+
+  </main>
+
+  <script src="../js/6.js"></script>
+
+</body>
+</html>
